@@ -1,0 +1,48 @@
+body{
+	margin:0px;
+}
+
+.header-h1{
+	background-color: rgba(0, 0, 200, 0.3);
+	color:black;
+	font-size: 50px;
+	padding: 20px 0px;
+	margin: 0px 0px 0px 0px;
+	width:100%;
+	text-align: center;
+
+}
+
+.header-lists{
+	list-style: none;
+	background-color: rgba(0, 0, 0, 0.4);
+	padding: 10px;
+	margin: 0px;
+	width: 100%;
+
+}
+
+.header-lists li{
+	display: inline;
+	padding: 10px 14%;
+
+}
+
+.header-list1{
+	background-color: rgba(200, 0, 0, 0.6);
+}
+.header-list2{
+	background-color: rgba(0, 200, 0, 0.6);
+}
+.header-list3{
+	background-color: rgba(0, 0, 200, 0.6);
+}
+
+section{
+	margin:0px 16px;
+}
+
+footer{
+	margin-top: 40%;
+	background-color: rgba(0, 200, 50, 0.4);
+}
