@@ -1,0 +1,84 @@
+body{
+	margin: 0px;
+	background-color: rgba(10,10,10,0.3);
+}
+
+p{
+	font: italic 30px comicsansms;
+}
+
+
+.container{
+	width: 80%;
+	background: rgba(255,0,0,0.5);
+	margin: auto;
+	padding-bottom: 100%;
+}
+
+.container p{
+	margin-top: 0px;
+	text-align: center;
+}
+
+.page-text{
+	margin: 0px;
+}
+
+header h1{
+	margin: 0px;
+	padding: 10px 0px;
+	text-align: center;
+}
+
+.header-h1{
+	color: white;
+	background-color: black;
+}
+
+.header-nav{
+	background-color: rgba(20,20,20,0.8);
+	padding-top: 10px;
+	padding-bottom:25px;
+}
+
+.header-lists{
+	list-style: none;
+	margin:0px;
+}
+
+.header-lists li{
+	display: inline;
+	width: 25%;
+	text-align: center;
+}
+
+.header-list1, .header-list2, .header-list3{
+	float: left;
+}
+
+.header-list4{
+	float: right;
+}
+
+.header-lists a{
+	text-decoration: none;
+	color: white;
+}
+
+.background{
+	color:rgb(30,30,30);
+	text-align: center;
+}
+
+.background h2{
+	font: bold 40px Arial;
+	margin:0px;
+	padding: 10px 0px;
+}
+
+.portrait-image{
+	display: block;
+	margin: auto;
+	padding-bottom: 10px;
+	width: 40%;
+}
