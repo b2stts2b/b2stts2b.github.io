@@ -7,16 +7,20 @@ p{
 	font: italic 30px comicsansms;
 }
 
+h2{
+	margin: 0px;
+}
 
 .container{
 	width: 80%;
 	background: rgba(255,0,0,0.5);
 	margin: auto;
-	padding-bottom: 100%;
+	padding-bottom: 40%;
 }
 
 .container p{
 	margin-top: 0px;
+	margin-bottom: 0px;
 	text-align: center;
 }
 
@@ -72,7 +76,6 @@ header h1{
 
 .background h2{
 	font: bold 40px Arial;
-	margin:0px;
 	padding: 10px 0px;
 }
 
@@ -81,4 +84,68 @@ header h1{
 	margin: auto;
 	padding-bottom: 10px;
 	width: 40%;
+}
+
+.game-lists{
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+.game-lists li{
+	display: inline;
+	background-color: rgba(50,50,50,0.3);
+	width: 33.333%;
+}
+
+.game1-item, .game2-item{
+	float:left;
+}
+
+.game3-item{
+	float:right;
+}
+
+.game-lists img{
+	width: 100%;
+}
+
+.info-box{
+	text-align: center;
+	padding: 30px 10px;
+}
+
+.game1-screen{
+	background-color: #666;
+	height: 500px;
+}
+
+.footer{
+	background-color: black;
+}
+
+.footer-row{
+	display: grid;
+	grid-template-columns: repeat(3, 33.3333%); 
+	height: 100px;
+}
+
+.footer li{
+	text-align: center;
+}
+
+
+.footer a, .footer p{
+	text-decoration: none;
+	color:white;
+	text-align: center;
+}
+
+.footer-nav, .footer-center, .footer-media{
+	border: 2px solid green;
+}
+
+.footer-lists, .footer p{
+	margin: 0px;
+	padding: 0px;
 }
