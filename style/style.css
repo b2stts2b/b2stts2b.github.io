@@ -52,15 +52,15 @@ header h1{
 
 .header-lists li{
 	display: inline;
-	width: 25%;
+	width: 20%;
 	text-align: center;
 }
 
-.header-list1, .header-list2, .header-list3{
+.header-list1, .header-list2, .header-list3, .header-list4{
 	float: left;
 }
 
-.header-list4{
+.header-list5{
 	float: right;
 }
 
