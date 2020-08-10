@@ -12,7 +12,7 @@
 		<nav class="header-nav">
 			<ul class="header-lists">
 				<li class="header-list header-list1"><a href="../index.html">Home</a></li>
-				<li class="header-list header-list2"><a href="#">Games</a></li>
+				<li class="header-list header-list2"><a href="../page/games.html">Games</a></li>
 				<li class="header-list header-list3"><a href="../page/cv.html">CV</a></li>
 				<li class="header-list header-list4"><a href="../page/about.html">About</a></li>
 				<li class="header-list header-list5"><a href="../page/about.html">Japanese</a></li>
@@ -25,21 +25,21 @@
 				<h2 class="text1">First idle game</h2>
 				<div class="resources">
 					<ul>
-						<li onclick="add('money')" id="money">Money: 0</li>
-						<li onclick="add('candy')" id="candy">Candy: 0</li>
-						<li onclick="add('books')" id="books">Books: 0</li>
+						<li id="money">Money: 0</li>
+						<li id="candy">Candy: 0</li>
+						<li id="books">Books: 0</li>
 					</ul>
 				</div>
 			</div>
-			<div class="game-columns">
-				<div class="col">
-					
+			<div class="bar-columns">
+				<div id="money-bar"class="col">
+					<div id="money-bar-mover" class="bar-mover"></div>
 				</div>
-				<div class="col">
-					
+				<div id="candy-bar"class="col">
+					<div id="candy-bar-mover" class="bar-mover"></div>
 				</div>
-				<div class="col">
-					
+				<div id="books-bar"class="col">
+					<div id="books-bar-mover" class="bar-mover"></div>
 				</div>
 			</div>
 		</div>
