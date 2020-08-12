@@ -46,6 +46,18 @@
 	position: relative;
 }
 
+
+
+.bar-button{
+	font: 30px bold Helvetica;
+	position: absolute;
+	width: 100%;
+	top: 50%;
+	margin-top: -34px;
+	color: black;
+	background-color: #444;
+}
+
 .col h3{
 	width: 100%;
 	text-align: center;
@@ -64,10 +76,18 @@
 }
 
 
-.col:hover{
+.c-col:hover{
 	background-color: rgba(0,255,0,0.2);
 }
 
 .bar-mover{
 	background-color: rgb(0,255,0);
+}
+.button-col{
+	background-color: #444;
+	text-align: center;
+}
+
+.button-col:hover{
+	cursor: pointer;
 }
