@@ -19,6 +19,7 @@ let upgradePrices = new Array(upgrades.length).fill(10);
 let upSpeed = new Array(barMovers.length).fill(0.5);
 let shrinkSpeed = new Array(barMovers.length).fill(5);
 let multipliers = new Array(barMovers.length).fill(1);
+let timesBought = new Array(upgrades.length).fill(0);
 
 //Add mouseover event
 for (let i = 0; i < bars.length; i++) {
@@ -58,16 +59,17 @@ for (let o = 0; o < upgrades.length; o++){
 for (let o = 0; o < upgrades.length; o++){
 	upgrades[o].addEventListener("click", function(){
 		if (currency >= upgradePrices[o]){
+			timesBought[o] += 1
 			currency -= upgradePrices[o];
 			if (o%3==0){
 				upSpeed[Math.floor(o/3)] *= 1.25;
 				upgradePrices[o] *= 2;
 			} else if (o%3==1){
-				shrinkSpeed[Math.floor(o/3)+1] *= 0.95;
+				shrinkSpeed[Math.floor(o/3)] *= 0.95;
 				upgradePrices[o] *= 4;
 			} else {
 				multipliers[Math.floor(o/3)] *= 1.25;
-				upgradePrices[o] = upgradePrices[o]*upgradePrices[o];
+				upgradePrices[o] = Math.pow(10, timesBought[o]+1);
 			}
 		}
 	})
