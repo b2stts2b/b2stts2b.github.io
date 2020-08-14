@@ -91,3 +91,24 @@
 .button-col:hover{
 	cursor: pointer;
 }
+
+.upgrade-screen{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.upgrade-screen li{
+	padding-bottom:5px;
+	border: 1px solid grey;
+	height: 40px;
+	font: 20px normal comicsansms;
+}
+
+.upgrade-screen ul{
+	padding:0px;
+	margin: 0px;
+	list-style: none;
+	text-align: center;
+	border: 3px solid black;
+	background-color: #0000c0;
+}

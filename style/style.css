@@ -144,3 +144,35 @@ header h1{
 	margin: 0px;
 	padding: 0px;
 }
+
+.kanji-grid ul{
+	margin-top: 0px;
+	padding: 0px;
+	padding-top:10px;
+	list-style: none;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+}
+
+.kanji-grid a{
+	font: 30px italic comicsansms;
+	color: black;
+	text-decoration: none;
+}
+
+.kanji-grid a:hover{
+	color:white;
+}
+
+.kanji-grid li{
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.kanji-title{
+	color: rgba(255,255,255,0.75);
+	width: 100%;
+	font: 30px bold Arial;
+	text-align: center;
+	padding: 20px 0px;
+}
