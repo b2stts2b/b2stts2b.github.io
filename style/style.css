@@ -24,9 +24,16 @@ h2{
 	text-align: center;
 }
 
-.page-text{
+
+
+.page-text h1{
 	margin: 0px;
+	text-align: center;
+	padding-top: 30px;
+	font: bold 40px Helvetica;
 }
+
+
 
 header h1{
 	margin: 0px;
@@ -72,6 +79,16 @@ header h1{
 .background{
 	color:rgb(30,30,30);
 	text-align: center;
+}
+
+.background img{
+	float: left;
+	margin: 0% 2%;
+}
+
+.background p{
+	font-size: 25px;
+	padding-right: 2%;
 }
 
 .background h2{
